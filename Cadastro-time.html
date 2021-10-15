@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       body{
+           background-color: rgb(176, 241, 168);
+       }
+   </style>
+    <title>Cadastrar time</title>
+</head>
+<body>
+    <h2>Cadastre seu time</h2>
+    <form action="times.html"method="post" name="form">
+        <div>
+            <label for ="nome-time">Nome do Time:</label>
+            <input id="nome-time"name="nome-time" type="text" required>
+        </div>
+        <div>
+            <label for="tag-time">Tag do Time:</label>
+            <input id=" tag-time" name="tag-time" type="text" required>
+        </div>
+        <div>
+            <label for="membros">Membros do Time:</label>
+            <br><textarea name="membros" id="membros" cols="20" rows="10"></textarea></div></br>
+        </div>
+       <button type="Enviar"> Enviar</button>
+    </form>
+    <br>
+    <a href="index.html">Voltar</a>
+</body>
+</html>
