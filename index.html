@@ -5,52 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="pk.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style-cadastro.css">
+    <link rel="stylesheet" href="style.css">
     <title>Pokemon Unity</title>    
     
   </head>
-<body>
-
-   <div class="borda">
-
-       <div class="premiação">
-           <a href="Premiação.html"><h2>Premiação</h2></a>           
-       </div>
-
-       <div class="regras">
-           <a href="Regras.html"><h2>Regras</h2></a>
-       </div>
-       <div class="cadastro-time">
-           <a href="Cadastro-time.html"><h2>Cadastrar time</h2></a>
-       </div>
-
-       <div class="cadastro-jogador-solo">
-            <a href="jogador-solo.html"><h2>Jogador Solo</h2></a>
-       </div>
-       <img src="imagens/3.png" alt="">
-   </div>
-    <!-- ABAIXO SERVE PARA FAZER ROLAGEM DINAMICA DAS IMAGENS ENTRE COMPUTADOR, TABLET E CELULAR.
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
-        <img src="imagens/fotog.png" alt="imagem flexível">
-    </picture>
-    -->
-   
-      <!--
-          ABAIXO INSERINDO AUDIO NO SITE
-
-        <audio preload="metadata" autoplay controls loop>
-          <source src="midia/pokemon.mp3" type="audio/mpeg">
-      </audio>
-      
-           ABAIXO INSERINDO VIDEO DO YOUTUBE NO SITE
-
-      <p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/-PlAg8R9TG4"
-          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </p> -->
-    
+<body>    
+    <header class="header"> 
+        <!-- Class= Cointainer, segura o bloco todo-->
+            <nav class="container">
+                <!-- a href=index, tem a logo com o link da página inicial-->
+                    <a href="index.html">
+                        <!-- Class=foto_logo é a classe da logo-->
+                        <img class="foto_logo"src="Logo.png" alt="logo">
+                    </a>
+                    <!--Class=flexbos é o bloco do menu-->
+                    <ul class="flexbox">
+                        <li><a href="Cadastro-time.html">Cadastro time</a></li>
+                        <li><a href="jogador-solo.html">jogador solo</a></li>
+                        <li><a href="Regras.html">Regras</a></li>
+                        <li><a href="Premiação.html">Premiação</a></li>
+                    </ul>                        
+            </nav>            
+     </header>
 </body>
 </html>
